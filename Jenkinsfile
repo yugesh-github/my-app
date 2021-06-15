@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/damodaranj/my-app.git'
+     git 'https://github.com/yugesh-github/my-app.git'
    }
    stage('Compile-Package'){
 
@@ -39,3 +39,4 @@ node{
    }
 }
 }
+echo "hello"
